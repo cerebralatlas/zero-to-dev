@@ -23,8 +23,8 @@ One-click shell script to bootstrap your Debian / WSL2 dev environment in minute
 ```bash
 git clone https://github.com/cerebralatlas/zero-to-dev.git
 cd zero-to-dev
-chmod +x zero-to-dev.sh
-./zero-to-dev.sh
+chmod +x install.sh
+./install.sh
 ```
 
 ## 📂 Installed Tools
