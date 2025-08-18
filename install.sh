@@ -43,7 +43,7 @@ echo "[...] Updating package list..."
 ($SUDO apt-get update -y) & progress "Updating apt"
 
 # Basic packages (remove cmake here, install separately with fast method)
-BASIC_PKGS=(git zsh build-essential pkg-config redis fzf neovim curl wget unzip zip tar)
+BASIC_PKGS=(git zsh build-essential pkg-config redis fzf neovim curl wget unzip zip tar man-db manpages)
 for pkg in "${BASIC_PKGS[@]}"; do
     install_pkg "$pkg"
 done

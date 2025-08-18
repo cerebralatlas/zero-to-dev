@@ -7,6 +7,7 @@ One-click shell script to bootstrap your Debian / WSL2 dev environment in minute
 - Install Git, Zsh + Oh My Zsh (with zsh-autosuggestions & zsh-syntax-highlighting)
 - Install NVM + latest Node.js + global packages (nrm, pnpm, yarn, @antfu/ni)
 - Install build-essential, cmake, pkg-config, redis, fzf, neovim, curl, wget, unzip, zip, tar
+- Install fastfetch (system info display), man-db & manpages (manual pages)
 - Install pyenv, Go
 - Auto-skip installed tools
 - Progress bar during install
@@ -42,6 +43,8 @@ chmod +x install.sh
 | redis                              | In-memory DB         |
 | fzf                                | Fuzzy finder         |
 | neovim                             | Vim-based editor     |
+| fastfetch                          | System info display  |
+| man-db, manpages                   | Manual pages         |
 | curl, wget                         | Download             |
 | unzip, zip, tar                    | Archives             |
 | pyenv                              | Python manager       |
